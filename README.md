@@ -4,11 +4,12 @@ A multi-lens scoring system for evaluating African stock exchange candidates. Bu
 
 ## Overview
 
-The Exchange Scorer is an interactive web application that scores exchange candidates across four distinct lenses:
+The Exchange Scorer is an interactive web application that scores exchange candidates across five distinct lenses:
 
 - **Best Performing** — Proven, comparable returns with liquidity and currency stability checks
 - **Best Growth Opportunity** — Forward catalysts and organic demand, not just macro stories  
 - **Strongest in Sector** — Performance within specific sectors (Mining, Oil & Gas, Financials, Telecom, Agriculture)
+- **Consumer Engagement** — Retail demand generation potential based on market size and trading growth
 - **Diversity / Portfolio Fit** — Relative to Sprout's current 5 exchanges (NGX, JSE, NSE, GSE, EGX)
 
 Each lens combines quantitative metrics (returns, market trends) with qualitative assessments (liquidity, political risk, demographic tailwind) using a 1–5 rubric, normalized to a 0–100 scale.
@@ -152,9 +153,11 @@ To change default weights, edit the `w` values here and in `DEFAULT_WEIGHTS`.
 
 ### Adding a New Lens
 
+To add a sixth lens or beyond:
+
 1. Add a new entry to the `LENSES` object with a unique key (e.g., `"innovation"`)
 2. Define its `label`, `desc`, and `weights` array
-3. Add the key to `LENS_ORDER` to make it appear in the UI
+3. Add the key to `LENS_ORDER` (currently `["performing","growth","sector","engagement","diversity"]`) to make it appear in the UI
 4. If using new metrics, implement scoring logic in `computeLensScore()` function
 
 ## Technical Structure

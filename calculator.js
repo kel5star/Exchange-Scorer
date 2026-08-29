@@ -113,6 +113,15 @@ const LENSES = {
       {key:"retailTraffic", label:"Retail demand in sector", w:25, type:"qual"},
     ]
   },
+  engagement: {
+    label:"Consumer Engagement",
+    desc:"How much retail demand this market can realistically generate — market size and actual trading growth, not just how the exchange itself is performing. Retail traffic carries the most weight by design, even though it's the metric with no real data yet — this lens is built to sharpen automatically as that gets filled in.",
+    weights:[
+      {key:"retailTraffic", label:"Retail investment traffic", w:40, type:"qual"},
+      {key:"demographicTailwind", label:"Demographic tailwind (market size)", w:35, type:"qual"},
+      {key:"momentum", label:"Listing / volume momentum", w:25, type:"qual"},
+    ]
+  },
   diversity: {
     label:"Diversity / Portfolio Fit",
     desc:"Scored relative to Sprout's current 5 exchanges, not the candidate in isolation — how different is this market's currency regime, region, and sector from what's already covered.",
@@ -124,7 +133,7 @@ const LENSES = {
     ]
   }
 };
-const LENS_ORDER = ["performing","growth","sector","diversity"];
+const LENS_ORDER = ["performing","growth","sector","engagement","diversity"];
 const DEFAULT_WEIGHTS = {}; // lensKey -> {metricKey: value}
 LENS_ORDER.forEach(lk => {
   DEFAULT_WEIGHTS[lk] = {};

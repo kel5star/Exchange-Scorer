@@ -35,7 +35,7 @@ Each candidate gets a 0–100 score per lens. Quantitative metrics (returns, mar
 | Demographic tailwind | Qual | Small, slow-growing, well-banked | Large, young, fast-growing, underbanked |
 | Retail investment traffic | Qual | No visible retail base, or too illiquid | Growing retail turnover, clear popular sector/stock |
 
-## The Four Lenses
+## The Five Lenses
 
 ### Best Performing
 **Weights:** 2026 YTD 35% · 2025 return 25% · Liquidity 20% · Currency stability 20%
@@ -51,6 +51,11 @@ Each candidate gets a 0–100 score per lens. Quantitative metrics (returns, mar
 **Weights:** Sector concentration + tailwind + performance attribution + retail demand in-sector
 
 **Rewards:** A family of scores (Mining, Oil & Gas, Financials, Telecom, Agriculture)
+
+### Consumer Engagement
+**Weights:** Retail investment traffic 40% · Demographic tailwind (market size) 35% · Listing / volume momentum 25%
+
+**Rewards:** How much retail demand this market can realistically generate — market size and actual trading growth, not just how the exchange itself is performing. Retail traffic carries the most weight by design, even though it's the metric with no real data yet — this lens is built to sharpen automatically as that gets filled in.
 
 ### Diversity / Portfolio Fit
 **Weights:** Currency-regime difference 30% · New region 25% · New sector 25% · Uncorrelated driver 20%
