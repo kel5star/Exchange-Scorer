@@ -2,7 +2,7 @@
 
 A multi-lens scoring system for evaluating African stock exchange candidates. Built to help Sprout Investing systematically evaluate which exchanges to add to its portfolio based on performance, growth potential, sector strength, and portfolio fit.
 
-**🚀 [Open the Calculator Online](https://kel5star.github.io/Exchange-Scorer/calculator.html)** *(no installation required)*
+**🚀 [Open the Calculator Online](https://cdn.jsdelivr.net/gh/kel5star/Exchange-Scorer@main/calculator.html)** *(no installation required)*
 
 ## Overview
 
@@ -285,22 +285,22 @@ The framework mentions 13 extended-universe exchanges (BVMAC, Algeria, Mozambiqu
 
 ## Hosting & Deployment
 
-### GitHub Pages (Already Enabled)
+### Live Link (jsDelivr CDN)
 
-This repository is configured to serve the calculator at:  
-**https://kel5star.github.io/Exchange-Scorer/calculator.html**
+The calculator is served via jsDelivr CDN and updates automatically on each push:  
+**https://cdn.jsdelivr.net/gh/kel5star/Exchange-Scorer@main/calculator.html**
 
-The site updates automatically whenever you push changes to `main`.
+This is the primary live link — no additional setup needed.
 
-### Enabling on Your Own Fork
+### GitHub Pages (Optional Alternative)
 
-If you fork this repo and want to enable GitHub Pages:
+If you prefer to use GitHub Pages instead:
 
 1. Go to **Settings → Pages** on your GitHub repo
 2. Under "Source," select **Deploy from a branch**
 3. Choose **main** branch and **root** folder
 4. Save
-5. Your site will be available at `https://[your-username].github.io/Exchange-Scorer/calculator.html`
+5. Your site will be available at `https://[your-username].github.io/Exchange-Scorer/calculator.html` (may take 2-5 minutes to deploy)
 
 ## License & Attribution
 
