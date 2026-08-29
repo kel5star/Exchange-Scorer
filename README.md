@@ -2,7 +2,7 @@
 
 A multi-lens scoring system for evaluating African stock exchange candidates. Built to help Sprout Investing systematically evaluate which exchanges to add to its portfolio based on performance, growth potential, sector strength, and portfolio fit.
 
-**🚀 [Open the Calculator Online](https://kel5star.github.io/Exchange-Scorer/calculator.html)** *(no installation required)*
+**[Open the Calculator Online](https://kel5star.github.io/Exchange-Scorer/calculator.html)** *(no installation required)*
 
 ## Overview
 
