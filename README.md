@@ -2,6 +2,8 @@
 
 A multi-lens scoring system for evaluating African stock exchange candidates. Built to help Sprout Investing systematically evaluate which exchanges to add to its portfolio based on performance, growth potential, sector strength, and portfolio fit.
 
+**🚀 [Open the Calculator Online](https://kel5star.github.io/Exchange-Scorer/calculator.html)** *(no installation required)*
+
 ## Overview
 
 The Exchange Scorer is an interactive web application that scores exchange candidates across five distinct lenses:
@@ -16,7 +18,13 @@ Each lens combines quantitative metrics (returns, market trends) with qualitativ
 
 ## Quick Start
 
-1. **Open the tool:** Open `calculator.html` in any modern web browser
+### Online (Recommended)
+Click the link above: **[Open the Calculator Online](https://kel5star.github.io/Exchange-Scorer/calculator.html)**
+
+The tool is hosted via GitHub Pages and updates automatically whenever changes are pushed.
+
+### Locally
+1. **Clone or download** this repository
 2. **Explore:** Click between lenses at the top to see candidates ranked under different criteria
 3. **Adjust weights:** Drag sliders to reweight metrics within a lens in real time
 4. **Inspect scores:** Click any exchange to see a detailed breakdown of how its score was calculated
@@ -274,6 +282,25 @@ The framework mentions 13 extended-universe exchanges (BVMAC, Algeria, Mozambiqu
 - **Framework v1 doc:** See `FRAMEWORK.md` for the full scoring methodology
 - **Source data:** Exchange websites, Next 10 shortlist, Sprout internal research
 - **Built with:** Vanilla JavaScript, CSS Grid, no dependencies
+
+## Hosting & Deployment
+
+### GitHub Pages (Already Enabled)
+
+This repository is configured to serve the calculator at:  
+**https://kel5star.github.io/Exchange-Scorer/calculator.html**
+
+The site updates automatically whenever you push changes to `main`.
+
+### Enabling on Your Own Fork
+
+If you fork this repo and want to enable GitHub Pages:
+
+1. Go to **Settings → Pages** on your GitHub repo
+2. Under "Source," select **Deploy from a branch**
+3. Choose **main** branch and **root** folder
+4. Save
+5. Your site will be available at `https://[your-username].github.io/Exchange-Scorer/calculator.html`
 
 ## License & Attribution
 
