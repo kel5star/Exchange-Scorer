@@ -2,7 +2,9 @@
 
 A multi-lens scoring system for evaluating African stock exchange candidates. Built to help Sprout Investing systematically evaluate which exchanges to add to its portfolio based on performance, growth potential, sector strength, and portfolio fit.
 
-**🚀 [Open the Calculator Online](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kel5star/Exchange-Scorer/main/calculator.html)** *(no installation required)*
+**🚀 [Open the Calculator Online via GitHub Pages](https://kel5star.github.io/Exchange-Scorer/)** *(no installation required)*
+
+*Note: Requires GitHub Pages to be enabled in repo settings (see Hosting & Deployment section below)*
 
 ## Overview
 
@@ -286,22 +288,29 @@ The framework mentions 13 extended-universe exchanges (BVMAC, Algeria, Mozambiqu
 
 ## Hosting & Deployment
 
-### Live Link (HTMLPreview)
+### Live Link (GitHub Pages)
 
-The calculator is rendered via HTMLPreview and updates automatically on each push:  
-**https://htmlpreview.github.io/?https://raw.githubusercontent.com/kel5star/Exchange-Scorer/main/calculator.html**
+The recommended way to share the calculator online:
 
-This is the primary live link — no additional setup needed.
+1. Go to your repo **Settings → Pages**
+2. Under "Build and deployment," select **Deploy from a branch**
+3. Choose **main** branch, **/(root)** folder
+4. Click **Save**
+5. Wait 1-2 minutes for deployment
 
-### GitHub Pages (Optional Alternative)
+Your calculator will be live at:  
+**https://kel5star.github.io/Exchange-Scorer/**
 
-If you prefer to use GitHub Pages instead:
+The site updates automatically whenever you push changes to `main`.
 
-1. Go to **Settings → Pages** on your GitHub repo
-2. Under "Source," select **Deploy from a branch**
-3. Choose **main** branch and **root** folder
-4. Save
-5. Your site will be available at `https://[your-username].github.io/Exchange-Scorer/calculator.html` (may take 2-5 minutes to deploy)
+### Local Use
+
+Clone the repository and open `calculator.html` in your browser:
+```bash
+git clone https://github.com/kel5star/Exchange-Scorer.git
+cd Exchange-Scorer
+# Open calculator.html in your browser
+```
 
 ## License & Attribution
 
