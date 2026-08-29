@@ -2,7 +2,7 @@
 
 A multi-lens scoring system for evaluating African stock exchange candidates. Built to help Sprout Investing systematically evaluate which exchanges to add to its portfolio based on performance, growth potential, sector strength, and portfolio fit.
 
-**🚀 [Open the Calculator Online](https://cdn.jsdelivr.net/gh/kel5star/Exchange-Scorer@main/calculator.html)** *(no installation required)*
+**🚀 [Open the Calculator Online](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kel5star/Exchange-Scorer/main/calculator.html)** *(no installation required)*
 
 ## Overview
 
@@ -19,9 +19,9 @@ Each lens combines quantitative metrics (returns, market trends) with qualitativ
 ## Quick Start
 
 ### Online (Recommended)
-Click the link above: **[Open the Calculator Online](https://cdn.jsdelivr.net/gh/kel5star/Exchange-Scorer@main/calculator.html)**
+Click the link above: **[Open the Calculator Online](https://htmlpreview.github.io/?https://raw.githubusercontent.com/kel5star/Exchange-Scorer/main/calculator.html)**
 
-No installation needed — updates automatically whenever changes are pushed.
+No installation needed — updates within minutes of pushing changes.
 
 ### Locally
 1. **Clone or download** this repository
@@ -286,10 +286,10 @@ The framework mentions 13 extended-universe exchanges (BVMAC, Algeria, Mozambiqu
 
 ## Hosting & Deployment
 
-### Live Link (jsDelivr CDN)
+### Live Link (HTMLPreview)
 
-The calculator is served via jsDelivr CDN and updates automatically on each push:  
-**https://cdn.jsdelivr.net/gh/kel5star/Exchange-Scorer@main/calculator.html**
+The calculator is rendered via HTMLPreview and updates automatically on each push:  
+**https://htmlpreview.github.io/?https://raw.githubusercontent.com/kel5star/Exchange-Scorer/main/calculator.html**
 
 This is the primary live link — no additional setup needed.
 
