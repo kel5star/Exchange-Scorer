@@ -19,13 +19,14 @@ Each lens combines quantitative metrics (returns, market trends) with qualitativ
 ## Quick Start
 
 ### Online (Recommended)
-Click the link above: **[Open the Calculator Online](https://kel5star.github.io/Exchange-Scorer/calculator.html)**
+Click the link above: **[Open the Calculator Online](https://cdn.jsdelivr.net/gh/kel5star/Exchange-Scorer@main/calculator.html)**
 
-The tool is hosted via GitHub Pages and updates automatically whenever changes are pushed.
+No installation needed — updates automatically whenever changes are pushed.
 
 ### Locally
 1. **Clone or download** this repository
-2. **Explore:** Click between lenses at the top to see candidates ranked under different criteria
+2. **Open** `calculator.html` in your browser
+3. **Explore:** Click between lenses at the top to see candidates ranked under different criteria
 3. **Adjust weights:** Drag sliders to reweight metrics within a lens in real time
 4. **Inspect scores:** Click any exchange to see a detailed breakdown of how its score was calculated
 5. **Edit data:** Expand the "Edit exchange data" section to update returns, liquidity, catalyst strength, etc.
