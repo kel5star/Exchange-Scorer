@@ -280,11 +280,31 @@ The framework mentions 13 extended-universe exchanges (BVMAC, Algeria, Mozambiqu
 - Click "Reset to framework defaults" in the Lens card to restore default weights for the current lens.
 - To reset all data, clear your browser's site data for this page, or if in an Artifact, discard changes.
 
+## Data Sources
+
+### Quantitative Metrics
+- **Returns (2025 FY, 2026 YTD):** Sourced from Sprout's "Next 10" research doc — compiled from official exchange reports, financial news, and market data
+- **Market cap / Turnover:** Exchange annual reports and regulatory filings
+- **Trading began:** Exchange official histories and Wikipedia African stock exchange list
+
+### Qualitative Metrics (1–5 Rubric)
+These are first-pass estimates and should be refined as the team learns more:
+- **Liquidity:** Bid-ask spreads, trading volume, market depth observations
+- **Currency regime:** Central bank policy, historical stability records, redenomination history
+- **Catalyst strength:** IPO pipelines, infrastructure projects, regulatory reforms (tracked via local media and regulatory announcements)
+- **Political risk:** Governance indices, capital control histories, regime stability assessments
+- **Demographic tailwind:** Population growth, banking penetration, urbanization rates (World Bank, UN data)
+- **Momentum:** Recent listing activity, volume trends, retail investor interest signals
+- **Retail traffic:** No sourced data yet — defaults to 3 (midpoint). Needs: brokerage APIs, app download data, local media mentions
+
+### Where to Update Data
+See "Updating Metrics as Markets Change" section for how to modify these values as conditions evolve.
+
 ## References
 
-- **Framework v1 doc:** See `FRAMEWORK.md` for the full scoring methodology
-- **Source data:** Exchange websites, Next 10 shortlist, Sprout internal research
-- **Built with:** Vanilla JavaScript, CSS Grid, no dependencies
+- **Framework v1 doc:** See `FRAMEWORK.md` for the full scoring methodology and metric definitions
+- **Baseline exchanges:** NGX (Nigeria), JSE (South Africa), NSE (Kenya), GSE (Ghana), EGX (Egypt)
+- **Built with:** Vanilla JavaScript, CSS Grid, no external dependencies
 
 ## Hosting & Deployment
 
